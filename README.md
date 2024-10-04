@@ -99,6 +99,7 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 | [abbodi1406](https://github.com/abbodi1406) | Trợ giúp về mã hóa |
 | [WindowsAddict](https://github.com/WindowsAddict) | Tác giả IAS |
 | [DucNguyen](https://github.com/DucNguyen1357) | Việt Hoá và thêm một số chức năng cho IAS |
+| | |
 
 Và cảm ơn người dùng IAS vì sự quan tâm, phản hồi và hỗ trợ của họ.
 
