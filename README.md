@@ -1,6 +1,7 @@
-# Notice:
+# Thông báo:
 
 ## Dự án gốc đã dược lưu trữ nên sẽ không thể duy trì cũng như không có phiên bản mới.
+## Đây là IAS phiên bản custom bởi DucNguyen, phiên bản gốc tại đây [GitHub](https://github.com/WindowsAddict/IDM-Activation-Script).
 
 ------------------------------------------------------------------------
 
@@ -10,138 +11,92 @@ Một công cụ mã nguồn mở để kích hoạt và reset bản dùng thử
 
 ## Tính năng
 
-- Khóa thời gian dùng thử IDM và kích hoạt bằng phương pháp khóa Registry.
-- Thời gian dùng thử vẫn duy trì ngay cả sau khi cài đặt các bản cập nhật của IDM.
-- Đặt lại thời gian dùng thử IDM.
-- Hoàn toàn mã nguồn mở.
-- Dựa trên script batch minh bạch.
+-   Khóa thời gian dùng thử IDM và kích hoạt bằng phương pháp khóa Registry.
+-   Thời gian dùng thử vẫn duy trì ngay cả sau khi cài đặt các bản cập nhật của IDM.
+-   Đặt lại thời gian dùng thử IDM.
+-   Hoàn toàn mã nguồn mở.
+-   Dựa trên script batch minh bạch.
 
 ## Phiên bản IAS Gốc mới nhất
 
 Phiên bản cuối - v1.2 (12-Feb-2024)\
 [GitHub](https://github.com/WindowsAddict/IDM-Activation-Script) - [BitBucket](https://bitbucket.org/WindowsAddict/idm-activation-script/)
 
-## Download / How to use it?
+## Tải xuống / Cách sử dụng?
 
--   Đầu tiên, cài đặt mới [Internet Download Manager](https://www.internetdownloadmanager.com/). Make sure previous cracks/patches are removed/uninstalled if there are any.
--   After that follow the below steps to activate it.
+-   Đầu tiên, cài đặt mới [Internet Download Manager](https://www.internetdownloadmanager.com/). Đảm bảo các bản crack/bản vá trước đó đã được xóa/gỡ cài đặt nếu có.
+-   Sau đó, hãy làm theo các bước bên dưới để kích hoạt.
 
-## Note
+## Lưu ý
 
--   📌 The activation option is currently not working in the script, use the Freeze trial option to lock 30-day trial period for the lifetime.
+-   📌 Tùy chọn kích hoạt hiện không hoạt động trong script, hãy sử dụng tùy chọn "Freeze trial" để khóa thời gian dùng thử 30 ngày vĩnh viễn.
+-   Phiên bản 1.2 đã có thể kích hoạt và sử dụng bản quyền bình thường, đôi khi sẽ bị tình trạng mất bản quyền.
 
-### Method 1 - PowerShell
+## Thông tin
 
-(Recommended)
+#### Đóng băng bản dùng thử
 
--   Right-click on the Windows start menu and select PowerShell or Terminal (Not CMD).
--   Copy-paste the below code and press enter\
-    `irm https://massgrave.dev/ias | iex`
--   You will see the activation options, follow the on-screen instructions.
--   That's all.
+-   IDM cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tùy chọn này trong tập lệnh để khóa thời gian dùng thử này trong suốt thời gian sử dụng để bạn không phải đặt lại bản dùng thử và bản dùng thử của bạn sẽ không hết hạn.
+-   Phương pháp này yêu cầu phải có Internet tại thời điểm áp dụng tùy chọn này.
+-   Có thể cài đặt trực tiếp các bản cập nhật IDM mà không cần phải đóng băng lại.
 
-### Method 2 - Traditional
+#### Kích hoạt
 
--   Download the file from [GitHub](https://github.com/WindowsAddict/IDM-Activation-Script/archive/refs/heads/main.zip) or [Bitbucket](https://bitbucket.org/WindowsAddict/idm-activation-script/get/main.zip)
--   Right-click on the downloaded zip file and extract
--   In the extracted folder, run the file named `IAS.cmd`
--   You will see the activation options, and follow onscreen instructions.
--   That's all.
+(\*Hiện không hoạt động)
 
-## Info
+-   Tập lệnh này áp dụng phương pháp khóa sổ đăng ký để kích hoạt trình quản lý tải xuống Internet (IDM).
+-   Phương pháp này yêu cầu Internet tại thời điểm kích hoạt.
+-   Có thể cài đặt trực tiếp các bản cập nhật IDM mà không cần phải kích hoạt lại.
+-   Sau khi kích hoạt, nếu trong một số trường hợp, IDM bắt đầu hiển thị màn hình nhắc nhở kích hoạt, thì chỉ cần chạy lại tùy chọn kích hoạt mà không cần sử dụng tùy chọn đặt lại.
 
-#### Freeze Trial
+#### Đặt lại Kích hoạt / Dùng thử IDM
 
--   IDM provides a 30-day trial period, you can use this option in the script to lock this trial period for the lifetime so that you won't have to reset the trial again and your trial won't expire.
--   This method requires the Internet at the time of applying this option.
--   IDM updates can be installed directly without having to freeze it again.
+-   Trình quản lý tải xuống Internet cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tập lệnh này để đặt lại Thời gian dùng thử / Kích hoạt này bất cứ khi nào bạn muốn.
+-   Tùy chọn này cũng có thể được sử dụng để khôi phục trạng thái nếu trong trường hợp IDM báo cáo khóa sê-ri giả và các lỗi tương tự khác.
 
-#### Activation
+#### Yêu cầu hệ điều hành
 
-(\*Currently not working)
+-   Dự án được hỗ trợ cho Windows 7/8/8.1/10/11 và Máy chủ tương đương của chúng.
+-   Phương pháp PowerShell để chạy IAS được hỗ trợ trên Windows 8 trở lên.
 
--   This script applies the registry lock method to activate the Internet download manager (IDM).
--   This method requires the Internet at the time of activation.
--   IDM updates can be installed directly without having to activate it again.
--   After the activation, if in some cases, IDM starts to show an activation nag screen, then just run the activation option again without using the reset option.
+#### Thông tin nâng cao
 
-#### Reset IDM Activation / Trial
+-   Để kích hoạt ở chế độ không giám sát, hãy chạy tập lệnh với tham số `/act`.
+-   Để đóng băng bản dùng thử ở chế độ không giám sát, hãy chạy tập lệnh với tham số `/frz`.
+-   Để đặt lại ở chế độ không giám sát, hãy chạy tập lệnh với tham số `/res`.
 
--   Internet download manager provides a 30-day trial period, you can use this script to reset this Activation / Trial period whenever you want.
--   This option also can be used to restore status if in case IDM reports a fake serial key and other similar errors.
+## Nó hoạt động như thế nào?
 
-#### OS requirement
+-   IDM lưu trữ dữ liệu liên quan đến bản dùng thử và kích hoạt trên nhiều khóa sổ đăng ký khác nhau. Một số khóa này bị khóa để bảo vệ chúng khỏi bị giả mạo và dữ liệu được lưu trữ theo một mẫu để theo dõi sự cố sê-ri giả và số ngày dùng thử còn lại. Để kích hoạt, tập lệnh ở đây chỉ cần tạo các khóa sổ đăng ký đó bằng cách kích hoạt một vài lượt tải xuống trong IDM, xác định các khóa sổ đăng ký đó và khóa chúng để IDM không thể chỉnh sửa và xem chúng. Theo cách đó, IDM không thể hiển thị cảnh báo rằng nó được kích hoạt bằng khóa sê-ri giả.
 
--   The project is supported for Windows 7/8/8.1/10/11 and their Server equivalent.
--   The PowerShell method to run IAS is supported on Windows 8 and higher.
+## Khắc phục sự cố
 
-#### Advanced Info
+-   Sửa lỗi tích hợp trình duyệt: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
+-   Nêu vấn đề trên [Github](https://github.com/WindowsAddict/IDM-Activation-Script) kèm theo ảnh chụp màn hình.
 
--   To activate in unattended mode, run the script with the `/act` parameter.
--   To freeze the trial in unattended mode, run the script with the `/frz` parameter.
--   To reset in unattended mode, run the script with the `/res` parameter.
-
-## How does it work?
-
--   IDM stores the data related to trial and activation across various registry keys. Some of these keys are locked to protect them from tampering and data is stored in a pattern to track the fake serial issue and the remaining trial days. To activate it, the script here simply generates those registry keys by triggering a few downloads in IDM, identifies those registry keys, and locks them so IDM can't edit and view them. That way IDM cannot show the warning that it's activated with a fake serial key.
-
-## Troubleshoot
-
--   Browser Integration Fix: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
--   Raise the issue on [Github](https://github.com/WindowsAddict/IDM-Activation-Script) with screenshots.
-
-## Changelog
+## Nhật ký thay đổi
 
 #### v1.2
 
--   Added back activation option with a randomized name, email, and key in registration details along with a warning that it's not working for some users, the recommended option is to use Freeze trial.
+-   Thêm tùy chọn kích hoạt lại với tên, email và thông tin đăng ký ngẫu nhiên cùng với cảnh báo rằng tùy chọn này không hoạt động đối với một số người dùng, tùy chọn được khuyến nghị là sử dụng bản dùng thử Freeze.
 
-#### v1.1
-
--   IDM update 6.42b3 has started showing fake serial popups with IAS activation, due to this we have removed the activation option and replaced it with the Freeze trial option to lock the 30-day trial period for the lifetime.
--   Now the script will disable quick-edit in CMD windows using Powershell instead of editing registry, thanks to @abbodi1406 for the code and @awuctl for the idea.
--   Code to relaunch script with conhost.exe to avoid terminal app is now merged in quick-edit disable code, thanks to @abbodi1406.
-
-#### v1.0
-
--   Added the code to relaunch the script with conhost.exe if the script is running from the terminal app.
--   Fixed an issue in getting the current user account SID.
-
-#### v0.9
-
--   Fixed an issue where the script can not activate and reset IDM in non-admin user accounts.
--   Fixed an issue where the script incorrectly shows that IDM is activated.
--   Fixed an issue where a fake serial pop-up may appear. The script will also show the info to run the activation option again without using the reset option.
--   Fixed an issue where Powershell code to launch IAS may not work due to GitHub block in some regions. It will use the new [BitBucket](https://bitbucket.org/WindowsAddict/idm-activation-script/) repo as a fallback link.
--   IDM registry scanning and locking code is now written in Powershell.
--   The script update checker code is added to the script.
--   The script will now disable quick edit mode temporarily because users often click inside the script window and it pauses the script.
--   The script will back up the CLSISD registry keys before performing operations on them.
--   Many error checks are added to better identify the issues.
-
-#### v0.8
-
--   Move the project to [Github](https://github.com/WindowsAddict/IDM-Activation-Script) and [massgrave.dev](https://massgrave.dev/idm-activation-script.html)
--   Minor bug fixes
--   Add info to inform users that empty registry keys are being deleted when the script deletes a lot of them
-
-## Screenshots
+## Ảnh chụp màn hình
 
 ![](https://massgrave.dev/images/IAS.png?raw=true)
 
 ![](https://massgrave.dev/images/IAS_Freeze_Trial.png?raw=true)
 
-## Credits
+## Ghi công
 
-|                                             |                                                                                                                                                                                                                                        |
+| | |
 |----------------------|--------------------------------------------------|
-| Dukun Cabul                                 | Original researcher of this IDM trial reset and activation logic, made an Autoit tool for these methods, [IDM-AIO_2020_Final](https://nsaneforums.com/topic/371047-discussion-internet-download-manager-fixes/page/8/#comment-1632062) |
-| AveYo aka BAU                               | [reg_own lean and mean snippet](https://pastebin.com/XTPt0JSC)                                                                                                                                                                         |
-| [abbodi1406](https://github.com/abbodi1406) | Help in coding                                                                                                                                                                                                                         |
-| WindowsAddict                               | IAS Author                                                                                                                                                                                                                             |
+| Dukun Cabul | Nhà nghiên cứu ban đầu về logic kích hoạt và thiết lập lại bản dùng thử IDM này, đã tạo ra một công cụ Autoit cho các phương pháp này, [IDM-AIO_2020_Final](https://nsaneforums.com/topic/371047-discussion-internet-download-manager-fixes/page/8/#comment-1632062) |
+| AveYo hay còn gọi là BAU | [reg_own lean and mean snippet](https://pastebin.com/XTPt0JSC) |
+| [abbodi1406](https://github.com/abbodi1406) | Trợ giúp về mã hóa |
+| WindowsAddict | Tác giả IAS |
 
-And thanks to the IAS users for their interest, feedback, and assistance.
+Và cảm ơn người dùng IAS vì sự quan tâm, phản hồi và hỗ trợ của họ.
 
 ------------------------------------------------------------------------
 
-Made with Love ❤️
+Được tạo ra với tình yêu ❤️
