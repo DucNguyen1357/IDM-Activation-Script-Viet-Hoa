@@ -85,9 +85,11 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Ảnh chụp màn hình
 
-![](https://massgrave.dev/images/IAS.png?raw=true)
+![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-1-597x335.png)
 
-![](https://massgrave.dev/images/IAS_Freeze_Trial.png?raw=true)
+![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-3-597x335.png)
+
+![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-2-921x518.png)
 
 ## Ghi công
 
