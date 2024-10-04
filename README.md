@@ -37,8 +37,6 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 #### Kích hoạt
 
-(\*Hiện không hoạt động)
-
 -   Tập lệnh này áp dụng phương pháp khóa sổ đăng ký để kích hoạt trình quản lý tải xuống Internet (IDM).
 -   Phương pháp này yêu cầu Internet tại thời điểm kích hoạt.
 -   Có thể cài đặt trực tiếp các bản cập nhật IDM mà không cần phải kích hoạt lại.
@@ -71,14 +69,14 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Nhật ký thay đổi (đối với phiên bản Việt Hoá)
 
-#### v1.2
+#### v1.2 - DucNguyen Việt Hoá 2.0
 
 -   Toàn bộ Script được Việt Hoá lại, ngoại trừ Readme.
 -   Sửa lại phần thay đổi tên và email.
 -   Thêm phần Block Host IDM để kích hoạt bản quyền không bị out.
 -   Thêm lựa chọn tắt thông báo cập nhật IDM.
 
-#### v0.7
+#### v0.7 - DucNguyen Việt Hoá 1.0
 
 -   Toàn bộ Script được Việt Hoá, ngoại trừ Readme.
 -   Thêm phần thay đổi tên khi sử dụng lựa chọn kích hoạt.
