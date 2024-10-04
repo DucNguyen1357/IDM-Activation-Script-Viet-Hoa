@@ -27,11 +27,6 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 -   Đầu tiên, cài đặt mới [Internet Download Manager](https://www.internetdownloadmanager.com/). Đảm bảo các bản crack/bản vá trước đó đã được xóa/gỡ cài đặt nếu có.
 -   Sau đó, hãy làm theo các bước bên dưới để kích hoạt.
 
-## Lưu ý
-
--   📌 Tùy chọn kích hoạt hiện không hoạt động trong script, hãy sử dụng tùy chọn "Freeze trial" để khóa thời gian dùng thử 30 ngày vĩnh viễn.
--   Phiên bản 1.2 đã có thể kích hoạt và sử dụng bản quyền bình thường, đôi khi sẽ bị tình trạng mất bản quyền.
-
 ## Thông tin
 
 #### Đóng băng bản dùng thử
@@ -72,13 +67,21 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 ## Khắc phục sự cố
 
 -   Sửa lỗi tích hợp trình duyệt: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
--   Nêu vấn đề trên [Github](https://github.com/WindowsAddict/IDM-Activation-Script) kèm theo ảnh chụp màn hình.
+-   Nêu vấn đề trên [Github](https://github.com/DucNguyen1357/IDM-Activation-Script-Viet-Hoa) kèm theo ảnh chụp màn hình.
 
-## Nhật ký thay đổi
+## Nhật ký thay đổi (đối với phiên bản Việt Hoá)
 
 #### v1.2
 
--   Thêm tùy chọn kích hoạt lại với tên, email và thông tin đăng ký ngẫu nhiên cùng với cảnh báo rằng tùy chọn này không hoạt động đối với một số người dùng, tùy chọn được khuyến nghị là sử dụng bản dùng thử Freeze.
+-   Toàn bộ Script được Việt Hoá lại, ngoại trừ Readme.
+-   Sửa lại phần thay đổi tên và email.
+-   Thêm phần Block Host IDM để kích hoạt bản quyền không bị out.
+-   Thêm lựa chọn tắt thông báo cập nhật IDM.
+
+#### v0.7
+
+-   Toàn bộ Script được Việt Hoá, ngoại trừ Readme.
+-   Thêm phần thay đổi tên khi sử dụng lựa chọn kích hoạt.
 
 ## Ảnh chụp màn hình
 
@@ -88,15 +91,15 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Ghi công
 
-| | |
 |----------------------|--------------------------------------------------|
 | Dukun Cabul | Nhà nghiên cứu ban đầu về logic kích hoạt và thiết lập lại bản dùng thử IDM này, đã tạo ra một công cụ Autoit cho các phương pháp này, [IDM-AIO_2020_Final](https://nsaneforums.com/topic/371047-discussion-internet-download-manager-fixes/page/8/#comment-1632062) |
 | AveYo hay còn gọi là BAU | [reg_own lean and mean snippet](https://pastebin.com/XTPt0JSC) |
 | [abbodi1406](https://github.com/abbodi1406) | Trợ giúp về mã hóa |
-| WindowsAddict | Tác giả IAS |
+| [WindowsAddict](https://github.com/WindowsAddict) | Tác giả IAS |
+| [DucNguyen](https://github.com/DucNguyen1357) | Việt Hoá và thêm một số chức năng cho IAS |
 
 Và cảm ơn người dùng IAS vì sự quan tâm, phản hồi và hỗ trợ của họ.
 
 ------------------------------------------------------------------------
 
-Được tạo ra với tình yêu ❤️
+Made With Love ❤️
