@@ -94,7 +94,6 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 ## Ghi công
 
 |                                             |                                                                                                                                                                                                                                        |
-|----------------------|--------------------------------------------------|
 | Dukun Cabul                                 | Nhà nghiên cứu ban đầu về logic kích hoạt và thiết lập lại bản dùng thử IDM này, đã tạo ra một công cụ Autoit cho các phương pháp này, [IDM-AIO_2020_Final](https://nsaneforums.com/topic/371047-discussion-internet-download-manager-fixes/page/8/#comment-1632062) |
 | AveYo hay còn gọi là BAU                               | [reg_own lean and mean snippet](https://pastebin.com/XTPt0JSC)                                                                                                                                                                         |
 | [abbodi1406](https://github.com/abbodi1406) | Trợ giúp về mã hóa                                                                                                                                                                                                                         |
