@@ -11,7 +11,7 @@ Một công cụ mã nguồn mở để kích hoạt và reset bản dùng thử
 
 ## Tính năng
 
--   Đóng băng thời gian dùng thử IDM và kích hoạt bằng phương pháp khóa Registry và chỉnh sửa file hosts.
+-   Đóng băng thời gian dùng thử IDM và kích hoạt bằng phương pháp khóa Registry Key và chỉnh sửa file hosts.
 -   Thời gian dùng thử vẫn duy trì ngay cả sau khi cài đặt các bản cập nhật của IDM.
 -   Đặt lại thời gian dùng thử IDM.
 -   Hoàn toàn mã nguồn mở.
