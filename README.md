@@ -46,6 +46,11 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 -   IDM cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tập lệnh này để đặt lại Thời gian dùng thử / Kích hoạt này bất cứ khi nào bạn muốn.
 -   Tùy chọn này cũng có thể được sử dụng để khôi phục trạng thái nếu trong trường hợp IDM báo khóa sê-ri giả và các lỗi tương tự khác.
 
+#### Tắt thông báo cập nhật IDM
+
+-   Hiện tại IDM đang làm quét các bản Cr@ck nên không thể cập nhật IDM lên phiên bản mới nhất.
+-   Tùy chọn này sử dụng để tắt thông báo cập nhật IDM phiền phức và tránh cập nhật IDM lên phiên bản mới nhất.
+
 #### Yêu cầu hệ điều hành
 
 -   Dự án được hỗ trợ cho Windows 7/8/8.1/10/11.
