@@ -11,11 +11,11 @@ Một công cụ mã nguồn mở để kích hoạt và reset bản dùng thử
 
 ## Tính năng
 
--   Khóa thời gian dùng thử IDM và kích hoạt bằng phương pháp khóa Registry.
+-   Đóng băng thời gian dùng thử IDM và kích hoạt bằng phương pháp khóa Registry và chỉnh sửa file hosts.
 -   Thời gian dùng thử vẫn duy trì ngay cả sau khi cài đặt các bản cập nhật của IDM.
 -   Đặt lại thời gian dùng thử IDM.
 -   Hoàn toàn mã nguồn mở.
--   Dựa trên script batch minh bạch.
+-   Dựa trên tập lệnh Batch mà không sử dụng các phần mềm khác.
 
 ## Phiên bản IAS Gốc mới nhất
 
@@ -24,32 +24,31 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Tải xuống / Cách sử dụng?
 
--   Đầu tiên, cài đặt mới [Internet Download Manager](https://www.internetdownloadmanager.com/). Đảm bảo các bản crack/bản vá trước đó đã được xóa/gỡ cài đặt nếu có.
+-   Đầu tiên, cài đặt mới [Internet Download Manager](https://www.internetdownloadmanager.com/). Đảm bảo các bản IDM Cr@ck trước đó đã được xóa/gỡ cài đặt nếu có.
 -   Sau đó, hãy làm theo các bước bên dưới để kích hoạt.
 
 ## Thông tin
 
 #### Đóng băng bản dùng thử
 
--   IDM cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tùy chọn này trong tập lệnh để khóa thời gian dùng thử này trong suốt thời gian sử dụng để bạn không phải đặt lại bản dùng thử và bản dùng thử của bạn sẽ không hết hạn.
--   Phương pháp này yêu cầu phải có Internet tại thời điểm áp dụng tùy chọn này.
+-   IDM cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tùy chọn này trong tập lệnh để đóng băng thời gian dùng thử, bản dùng thử của bạn sẽ không hết hạn.
+-   Phương pháp này yêu cầu phải có Internet và bỏ chặn hosts tạm thời.
 -   Có thể cài đặt trực tiếp các bản cập nhật IDM mà không cần phải đóng băng lại.
 
 #### Kích hoạt
 
--   Tập lệnh này áp dụng phương pháp khóa sổ đăng ký để kích hoạt trình quản lý tải xuống Internet (IDM).
--   Phương pháp này yêu cầu Internet tại thời điểm kích hoạt.
--   Có thể cài đặt trực tiếp các bản cập nhật IDM mà không cần phải kích hoạt lại.
+-   Tập lệnh này áp dụng phương pháp khóa Registry để kích hoạt IDM.
+-   Phương pháp này yêu cầu phải có Internet và bỏ chặn hosts tạm thời.
 -   Sau khi kích hoạt, nếu trong một số trường hợp, IDM bắt đầu hiển thị màn hình nhắc nhở kích hoạt, thì chỉ cần chạy lại tùy chọn kích hoạt mà không cần sử dụng tùy chọn đặt lại.
 
 #### Đặt lại Kích hoạt / Dùng thử IDM
 
--   Trình quản lý tải xuống Internet cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tập lệnh này để đặt lại Thời gian dùng thử / Kích hoạt này bất cứ khi nào bạn muốn.
--   Tùy chọn này cũng có thể được sử dụng để khôi phục trạng thái nếu trong trường hợp IDM báo cáo khóa sê-ri giả và các lỗi tương tự khác.
+-   IDM cung cấp thời gian dùng thử 30 ngày, bạn có thể sử dụng tập lệnh này để đặt lại Thời gian dùng thử / Kích hoạt này bất cứ khi nào bạn muốn.
+-   Tùy chọn này cũng có thể được sử dụng để khôi phục trạng thái nếu trong trường hợp IDM báo khóa sê-ri giả và các lỗi tương tự khác.
 
 #### Yêu cầu hệ điều hành
 
--   Dự án được hỗ trợ cho Windows 7/8/8.1/10/11 và Máy chủ tương đương của chúng.
+-   Dự án được hỗ trợ cho Windows 7/8/8.1/10/11.
 -   Phương pháp PowerShell để chạy IAS được hỗ trợ trên Windows 8 trở lên.
 
 #### Thông tin nâng cao
@@ -60,12 +59,12 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Nó hoạt động như thế nào?
 
--   IDM lưu trữ dữ liệu liên quan đến bản dùng thử và kích hoạt trên nhiều khóa sổ đăng ký khác nhau. Một số khóa này bị khóa để bảo vệ chúng khỏi bị giả mạo và dữ liệu được lưu trữ theo một mẫu để theo dõi sự cố sê-ri giả và số ngày dùng thử còn lại. Để kích hoạt, tập lệnh ở đây chỉ cần tạo các khóa sổ đăng ký đó bằng cách kích hoạt một vài lượt tải xuống trong IDM, xác định các khóa sổ đăng ký đó và khóa chúng để IDM không thể chỉnh sửa và xem chúng. Theo cách đó, IDM không thể hiển thị cảnh báo rằng nó được kích hoạt bằng khóa sê-ri giả.
+-   IDM lưu trữ dữ liệu liên quan đến bản dùng thử và kích hoạt trên nhiều Registry Key khác nhau. Một số Registry Key này bị khóa để bảo vệ chúng khỏi bị giả mạo và dữ liệu được lưu trữ theo một mẫu để theo dõi Key giả và số ngày dùng thử còn lại. Để kích hoạt, tập lệnh ở đây chỉ cần tạo các khóa Registry Key đó bằng cách kích hoạt một vài lượt tải xuống trong IDM, xác định các Registry Key đó và khóa chúng để IDM không thể chỉnh sửa và xem chúng. Theo cách đó, IDM không thể hiển thị cảnh báo rằng nó được kích hoạt bằng Key giả.
 
 ## Khắc phục sự cố
 
 -   Sửa lỗi tích hợp trình duyệt: [Chrome](https://www.internetdownloadmanager.com/register/new_faq/bi9.html) - [Firefox](https://www.internetdownloadmanager.com/register/new_faq/bi4.html)
--   Nêu vấn đề trên [Github](https://github.com/DucNguyen1357/IDM-Activation-Script-Viet-Hoa) kèm theo ảnh chụp màn hình.
+-   Nêu vấn đề trên [Github](https://github.com/DucNguyen1357/IDM-Activation-Script-Viet-Hoa/issues) kèm theo ảnh chụp màn hình.
 
 ## Nhật ký thay đổi (đối với phiên bản Việt Hoá)
 
@@ -73,7 +72,7 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 -   Toàn bộ Script được Việt Hoá lại, ngoại trừ Readme.
 -   Sửa lại phần thay đổi tên và email.
--   Thêm phần Block Host IDM để kích hoạt bản quyền không bị out.
+-   Thêm phần Block Host IDM để kích hoạt bản quyền không bị trôi Key.
 -   Thêm lựa chọn tắt thông báo cập nhật IDM.
 
 #### v0.7 - DucNguyen Việt Hoá 1.0
