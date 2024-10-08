@@ -48,8 +48,9 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 #### Tắt thông báo cập nhật IDM
 
--   Hiện tại IDM đang làm quét các bản Cr@ck nên không thể cập nhật IDM lên phiên bản mới nhất.
--   Tùy chọn này sử dụng để tắt thông báo cập nhật IDM phiền phức và tránh cập nhật IDM lên phiên bản mới nhất.
+-   Hiện tại IDM đang làm gắt là quét các bản Cr@ck nên chúng ta không thể cập nhật IDM lên phiên bản mới nhất.
+-   Tùy chọn này sẽ tìm Registry Key chứa thời gian phiên bản cập nhật và thời gian cập nhật sau đó thay đổi nó thành thời gian dài nhất, giúp bạn tắt thông báo cập nhật IDM phiền phức và tránh cập nhật IDM lên phiên bản mới nhất.
+-   Tùy chọn này cũng có thể được sử dụng đối với phiên bản dùng thử và các phiên bản khác bình thường.
 
 #### Yêu cầu hệ điều hành
 
