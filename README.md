@@ -88,7 +88,11 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Ảnh chụp màn hình
 
-![](https://ducnguyen.top/ducnguyentech/wp-content/smush-webp/sites/6/2022/06/IAS-IDM-598x470.png.webp)
+<p align="center">
+  <a href="https://ducnguyen.top/ducnguyentech">
+    <img src="https://ducnguyen.top/ducnguyentech/wp-content/smush-webp/sites/6/2022/06/IAS-IDM-598x470.png.webp" />
+  </a>
+</p>
 
 ![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-1.png)
 
