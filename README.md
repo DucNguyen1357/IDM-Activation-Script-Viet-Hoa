@@ -94,11 +94,23 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
   </a>
 </p>
 
-![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-1.png)
+<p align="center">
+  <a href="https://ducnguyen.top/ducnguyentech">
+    <img src="https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-1.png" />
+  </a>
+</p>
 
-![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-3.png)
+<p align="center">
+  <a href="https://ducnguyen.top/ducnguyentech">
+    <img src="https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-2.png" />
+  </a>
+</p>
 
-![](https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-2.png)
+<p align="center">
+  <a href="https://ducnguyen.top/ducnguyentech">
+    <img src="https://ducnguyen.top/ducnguyentech/wp-content/uploads/sites/6/2024/09/IAS-Show-3.png" />
+  </a>
+</p>
 
 ## Ghi công
 
