@@ -1,7 +1,7 @@
 # Thông báo:
 
 ## Dự án gốc đã dược lưu trữ nên sẽ không thể duy trì cũng như không có phiên bản mới.
-## Đây là IAS phiên bản custom bởi DucNguyen, phiên bản gốc tại đây [GitHub](https://github.com/WindowsAddict/IDM-Activation-Script).
+## Đây là IAS phiên bản chỉnh sửa bởi DucNguyen, phiên bản gốc tại đây [GitHub](https://github.com/WindowsAddict/IDM-Activation-Script).
 
 ------------------------------------------------------------------------
 
@@ -73,6 +73,11 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 -   Nêu vấn đề trên [Github](https://github.com/DucNguyen1357/IDM-Activation-Script-Viet-Hoa/issues) kèm theo ảnh chụp màn hình.
 
 ## Nhật ký thay đổi (đối với phiên bản Việt Hoá)
+
+#### v1.2 - DucNguyen Việt Hoá 2.1
+
+-   Sửa đổi lại chức năng Block Host tránh việc không kích hoạt được.
+-   Thêm chức năng khoá file Hosts sau khi kích hoạt xong.
 
 #### v1.2 - DucNguyen Việt Hoá 2.0
 
