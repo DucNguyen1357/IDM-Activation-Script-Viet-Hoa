@@ -644,6 +644,7 @@ ECHO @ IAS 1.2 - Viet Hoa By DucNguyen Tech 2.1
 ECHO @ Block Host IDM
 ECHO @
 ECHO @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+attrib -r %WINDIR%\system32\drivers\etc\hosts
 	
 		SET BLOCKLINE=127.0.0.1 tonec.com
 		ECHO Checking : !BLOCKLINE!
@@ -776,7 +777,7 @@ ECHO @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	    	ECHO Line found.
 	    )
     	ECHO.
-		attrib +r %WINDIR%\system32\drivers\etc\hosts
+attrib +r %WINDIR%\system32\drivers\etc\hosts
 
         SETLOCAL DisableDelayedExpansion
 
