@@ -25,7 +25,7 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 ## Tải xuống / Cách sử dụng?
 
 -   Đầu tiên, cài đặt mới [Internet Download Manager](https://www.internetdownloadmanager.com/). Đảm bảo các bản IDM Cr@ck trước đó đã được xóa/gỡ cài đặt nếu có.
--   Sau đó, hãy làm theo các bước bên dưới để kích hoạt.
+-   Sau đó, hãy tải file kích hoạt mới nhất tại phần [Releases](https://github.com/DucNguyen1357/IDM-Activation-Script-Viet-Hoa/releases).
 
 ## Thông tin
 
