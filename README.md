@@ -74,6 +74,10 @@ Phiên bản cuối - v1.2 (12-Feb-2024)\
 
 ## Nhật ký thay đổi (đối với phiên bản Việt Hoá)
 
+#### v1.2 - DucNguyen Việt Hoá 2.2.1
+
+-   Thêm chức năng chặn 1 IP kiểm tra Serial cho IDM.
+
 #### v1.2 - DucNguyen Việt Hoá 2.2
 
 -   Thêm chức năng chặn IDM (IDMan.exe) kết nối tới Internet.
